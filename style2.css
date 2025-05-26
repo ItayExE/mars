@@ -47,6 +47,7 @@ p {
     display: flex;
     color: white;
     justify-content: space-between;
+    align-items: center;
 }
 .header{
     height: 100vh;
@@ -59,6 +60,9 @@ p {
     font-size: 2rem;
     color: #FD9B40;
     animation: slide-up 5s infinite linear;
+}
+li{
+    line-height: 2rem;
 }
 .list-wrapper{
     height: 2rem;
