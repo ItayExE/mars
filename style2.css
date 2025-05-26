@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Gputeks";
+    src: url(font/Gputeks-Regular.woff), url(font/Gputeks-Regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gputeks;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    border: solid;
+}
+.back_b {
+    position: fixed;
+    width: 136px;
+    height: 52px;
+    top: 70px;
+    left: 0;
+    color: white;
+    background-color: #39435C;
+    text-align: center;
+    line-height: 52px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.join{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#222836, #293146);
+}
+.prof-list{
+    list-style-type: none;
+    text-align: center;
+    font-size: 2rem;
+    color: #FD9B40;
+    animation: slide-up 5s infinite linear;
+}
+.list-wrapper{
+    height: 2rem;
+    overflow: hidden;
+}
+@keyframes slide-up{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-80%);
+    }
+}
