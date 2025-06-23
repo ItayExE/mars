@@ -181,7 +181,6 @@ main {
     background-size: cover;
     display: flex;
     align-items: center;
-    background-position: bottom -2px;
 }
 
 .quote-container {
